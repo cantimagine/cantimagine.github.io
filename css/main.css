@@ -27,6 +27,12 @@ main {
     height: 80%;
 }
 
+main .page-title {
+    font-family: 'Tangerine', cursive;
+    font-size: 48pt;
+    font-weight: bold;
+}
+
 #nav {
     padding-bottom: 10010px;
     margin-bottom: -10000px;
@@ -60,10 +66,12 @@ main {
     margin-top: 0;
 }
 
-p {
-    color: #555;
-}
 
+nav .nav-title {
+    font-family: 'Tangerine', cursive;
+    font-size: 36pt;
+    color: white;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -84,6 +92,8 @@ nav ul a:hover {
     color: #E1141B;
 }
 
+
+
 .todo {
     background-color: black;
     color: cyan;
@@ -92,10 +102,3 @@ nav ul a:hover {
 }
 
 
-/* FONTS */
-.fancy {
-    font-family: 'Tangerine', cursive;
-}
-h1.fancy {
-    font-size: 48pt;
-}
